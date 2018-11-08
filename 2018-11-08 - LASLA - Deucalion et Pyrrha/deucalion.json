@@ -1,0 +1,50 @@
+{
+   "@context":{
+      "@vocab":"https://www.w3.org/ns/hydra/core#",
+      "dc":"http://purl.org/dc/terms/"
+   },
+   "description":"Each model can be called using its URI @id with a POST request where the `text` parameter is the input plain/text",
+   "members":[
+      {
+         "@id":"http://127.0.0.1:5005/model/enc-001",
+         "@type":"Collection",
+         "dc:creator":[
+            {
+               "@id":"https://viaf.org/viaf/134649805/",
+               "@label":"Ecole nationale des Chartes"
+            }
+         ],
+         "dc:description":[
+            "Model built on Wauchier de Denain, Graal and other kind of Old French data"
+         ],
+         "dc:language":"fro",
+         "dc:source":[
+            {
+               "dc:alternative":"Ariane Pinche, \"Li Seint Confessors, \u00c9dition nativement num\u00e9rique\". 2018-10-23, Available at http://chartes.psl.eu/corpora/Wauchier",
+               "dc:authors":[
+                  {
+                     "@id":"http://chartes.psl.eu/apinche",
+                     "@label":"Ariane Pinche"
+                  }
+               ],
+               "dc:date":"2018-10-23",
+               "dc:title":"Li Seint Confessors, \u00c9dition nativement num\u00e9rique"
+            },
+            {
+               "dc:alternative":"Jean-Baptiste Camps, \"Floovant et chansons de geste\". 2018-10-23, Available at http://chartes.psl.eu/corpora/Geste",
+               "dc:authors":[
+                  {
+                     "@id":"http://chartes.psl.eu/jbcamps",
+                     "@label":"Jean-Baptiste Camps"
+                  }
+               ],
+               "dc:date":"2018-10-23",
+               "dc:title":"Floovant et chansons de geste"
+            }
+         ],
+         "description":"Model built on Wauchier de Denain, Graal and other kind of Old French data",
+         "title":"Model for Ancient-French"
+      }
+   ],
+   "title":"Translation models"
+}
