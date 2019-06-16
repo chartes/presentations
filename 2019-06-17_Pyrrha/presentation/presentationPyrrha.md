@@ -91,6 +91,7 @@ Form | Lemma |POS |Morph
 Form |Lemma |POS| Morph
 ----|---|----|----| 
 signeur | seignor |NOMcom| NOMB.=s GENRE=m CAS=r
+
 <small>*Table 2. Exemple d’annotation nominale*</small>
 
 
