@@ -269,10 +269,10 @@ L’interface affiche un tableau à 9 colonnes, dont 3 sont éditables :
 1. `Id` : identifiant attribué à chaque token (mots et éléments de ponctuation) ;
 1. `Form` : **éditable**, terme tel qu’il apparaît dans le texte ;
 1. `Lemma` : **éditable**, lemme attribué à chaque token ;
-1. `POS` : **éditable**, étiquette gramaticale du token ;
+1. `POS` : **éditable**, étiquette grammaticale du token ;
 1. `Morph` : étiquette morpho-syntaxique du token ;
 1. `Context` : le token en contexte ([configurer le contexte](#context_setting)) ;
-1. `Similar` : nombre de token similaires (pour les [corrections par lots](#batch_correction)) ;
+1. `Similar` : nombre de tokens similaires (pour les [corrections par lots](#batch_correction)) ;
 1. `Save` : sauvegarder les modifications ;
 1. `+` : options de modification du token : correction, suppression, ajout.
 
@@ -352,7 +352,8 @@ Si nécessaire, vous pouvez corriger le texte annoté (la liste des tokens) grâ
 Pour suivre les modifications apportées au texte annoté, cliquer sur `Quick links > Editions history`.
 
 ---
-## <a name="control_lists_update"></a> III.4 - Modifier les listes de contrôle
+## <a name="control_lists_update"></a> 
+III.4 - Modifier les listes de contrôle
 `Quick links > Control Lists`
 
 #### Utilisation des listes partagées (`public list`)
